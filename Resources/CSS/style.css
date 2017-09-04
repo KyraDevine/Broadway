@@ -9,7 +9,7 @@ font-weight: bold;
 color: white;
 }
 
-nav {
+.nav {
   color: white;
   font-size: 18px;
   text-decoration: underline;
@@ -18,7 +18,31 @@ nav {
 
 .top {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-size: cover;
   background-position: center;
   max-width: 100%;
   max-height: 100%;
+}
+
+p {
+  font-size: 14px;
+}
+
+.bottomheader {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+footer {
+  text-align: left;
+  font-size: 12px;
+  background-color: dimgray;
+  color: white;
+}
+
+b {
+  font-size: 16px;
+  font-weight: normal;
 }
